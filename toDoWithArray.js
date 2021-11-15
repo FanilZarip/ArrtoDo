@@ -50,6 +50,7 @@ function showList() {
 		}
 		console.log('\n', title);
 
+		//
 		// Так можно увидеть задачу как объект
 		// fullTaskInfo = list.filter(getList);
 		// console.log(fullTaskInfo);
@@ -57,7 +58,7 @@ function showList() {
 
 		list.filter(getList);
 
-		// console.log(count);
+		// console.log(count); // Тестировал счетчик
 		if (count === 0) {
 			console.log(emptyTaskList);
 		}
